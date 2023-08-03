@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="sobreMi">
+        <img class="titulo" src="titulo.png" alt="titulo">
+    </div>
+    <div id="sobreMi_principal">
+        <div id="sobreMi_left">
+            <div>
+                <h2 class="sobreMi">Sobre Mi!</h2>
+                <p class="sobreMi">
+                    ¡Hola! Mi nombre es Gonzalo y estoy encantado de compartir un poco sobre mí.
+                    Me apasiona la informática y actualmente estudio Ingeniería en Computación en la FING.
+                    Desde que era chico, siempre me ha fascinado el mundo de la tecnología y todo lo relacionado con
+                    ella.
+                    A medida que avanzo en mis estudios, me doy cuenta de lo vasto y emocionante que es este campo.
+                    Me fascina la forma en que la tecnología está cambiando constantemente nuestras vidas y cómo podemos
+                    utilizarla para resolver problemas complejos y mejorar el mundo que nos rodea.
+                    También tengo otros intereses que realizo en mi tiempo libre como tocar la batería e ir al gimnasio.
+                </p>
+            </div>
+
+        </div>
+        <div id="sobreMi_right">
+            <img class="sobreMi" src="yo.png" alt="imagen_sobre_mi">
+        </div>
+
+    </div>
+    <div id="outer">
+        <div class="menu">
+            <button class="button"> <a class="button_menu" href="#educacion">EDUCACIÓN</a>
+            </button>
+        </div>
+        <div class="menu">
+            <button class="button"> <a class="button_menu" href="#redes-sociales">REDES SOCIALES</a>
+            </button>
+        </div>
+        <div id="ultimo_menu">
+            <button class="button"><a class="button_menu" href="#contact">CONTACTO</a>
+            </button>
+        </div>
+
+    </div>
+
+    <section>
+        <div id="educacion">
+            <div>
+                <img class="sobreMi" src="educacion.png" alt="imagen_sobre_mi">
+            </div>
+            <br>
+            <table>
+                <tr>
+                    <th>Título</th>
+                    <th>Instituto</th>
+                    <th>Fecha de Graduación</th>
+                </tr>
+                <tr>
+                    <td>Fase 1</td>
+                    <td>Plan Ceibal (Jóvenes a Programar)</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Inglés</td>
+                    <td>Michigan Language Assessment</td>
+                    <td>2018</td>
+                </tr>
+            </table>
+            <br><br>
+            <hr>
+            <br><br>
+        </div>
+        <div id="container_redes">
+            <section id="redes-sociales">
+                <div>
+                    <img class="titulo" src="conecta.png" alt="conecta conmigo">
+                </div>
+                <div>
+                    <a href="https://github.com/" target="_blank"><i
+                            class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i
+                            class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </section>
+            <hr>
+            <section id="contact">
+                <div class="contact">
+                    <form>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea><br><br>
+
+                        <input id="btn" type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="contact">
+                    <img class="titulo" src="formulario.png" alt="formulario de contacto">
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Copyrights © 2023 Gonzalo Luz.</p>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i
+                class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/" target="_blank"><i
+                class="fab fa-linkedin fa-2x"></i></a>
+
+    </footer>
+
+</body>
+
+</html>
